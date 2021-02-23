@@ -240,6 +240,7 @@ void set_default_settings()
 #endif
 	settings->setDefault("enable_particles", "true");
 	settings->setDefault("arm_inertia", "true");
+	settings->setDefault("show_nametag_backgrounds", "true");
 
 	settings->setDefault("enable_minimap", "true");
 	settings->setDefault("minimap_shape_round", "true");
@@ -461,7 +462,6 @@ void set_default_settings()
 	settings->setDefault("screen_h", "0");
 	settings->setDefault("fullscreen", "true");
 	settings->setDefault("touchtarget", "true");
-	settings->setDefault("TMPFolder", porting::path_cache);
 	settings->setDefault("touchscreen_threshold","20");
 	settings->setDefault("fixed_virtual_joystick", "false");
 	settings->setDefault("virtual_joystick_triggers_aux", "false");
